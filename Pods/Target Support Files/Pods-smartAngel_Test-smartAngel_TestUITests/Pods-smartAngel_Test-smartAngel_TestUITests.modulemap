@@ -1,0 +1,6 @@
+framework module Pods_smartAngel_Test_smartAngel_TestUITests {
+  umbrella header "Pods-smartAngel_Test-smartAngel_TestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

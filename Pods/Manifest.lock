@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (5.0.5)
+  - Cosmos (21.0.0)
+  - Hero (1.5.0)
+  - IBAnimatable (6.0.0)
+  - Kingfisher (5.13.2):
+    - Kingfisher/Core (= 5.13.2)
+  - Kingfisher/Core (5.13.2)
+  - Networking (5.0.2)
+  - PKHUD (5.3.0)
+  - SwiftMessages (7.0.1):
+    - SwiftMessages/App (= 7.0.1)
+  - SwiftMessages/App (7.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cosmos
+  - Hero
+  - IBAnimatable
+  - Kingfisher
+  - Networking
+  - PKHUD
+  - SwiftMessages
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - Hero
+    - IBAnimatable
+    - Kingfisher
+    - Networking
+    - PKHUD
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  Cosmos: 3dfb6e4ba48bd48b8c9aa2a77048ae11ed114f96
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  IBAnimatable: d49f9fee0c401b5b08d31b77256b77fb067e0e92
+  Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
+  Networking: dc4776bdd189607f4be4fad5f1843e744690d65b
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
+
+PODFILE CHECKSUM: 0448bf197d20ee53956a6271579cd03192fd9618
+
+COCOAPODS: 1.8.4

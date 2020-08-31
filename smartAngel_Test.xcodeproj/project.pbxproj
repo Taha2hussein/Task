@@ -3,19 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		00DA43DD24FCBF7F009658CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA43DC24FCBF7F009658CB /* AppDelegate.swift */; };
 		00DA43DF24FCBF7F009658CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA43DE24FCBF7F009658CB /* SceneDelegate.swift */; };
-		00DA43E124FCBF7F009658CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA43E024FCBF7F009658CB /* ViewController.swift */; };
 		00DA43E424FCBF7F009658CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DA43E224FCBF7F009658CB /* Main.storyboard */; };
 		00DA43E724FCBF7F009658CB /* smartAngel_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00DA43E524FCBF7F009658CB /* smartAngel_Test.xcdatamodeld */; };
 		00DA43E924FCBF81009658CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DA43E824FCBF81009658CB /* Assets.xcassets */; };
 		00DA43EC24FCBF81009658CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DA43EA24FCBF81009658CB /* LaunchScreen.storyboard */; };
 		00DA43F724FCBF81009658CB /* smartAngel_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA43F624FCBF81009658CB /* smartAngel_TestTests.swift */; };
 		00DA440224FCBF82009658CB /* smartAngel_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA440124FCBF82009658CB /* smartAngel_TestUITests.swift */; };
+		00DA441924FCC126009658CB /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA441824FCC126009658CB /* homeViewController.swift */; };
+		00DA441B24FCC13E009658CB /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA441A24FCC13E009658CB /* settingViewController.swift */; };
+		00DA441D24FCC146009658CB /* notificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA441C24FCC146009658CB /* notificationsViewController.swift */; };
+		00DA441F24FCC152009658CB /* notesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA441E24FCC152009658CB /* notesViewController.swift */; };
+		00DA442424FCC160009658CB /* notesContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA442024FCC160009658CB /* notesContract.swift */; };
+		00DA442524FCC160009658CB /* notesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA442124FCC160009658CB /* notesPresenter.swift */; };
+		00DA442624FCC160009658CB /* notesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA442224FCC160009658CB /* notesRouter.swift */; };
+		00DA442724FCC160009658CB /* notesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA442324FCC160009658CB /* notesInteractor.swift */; };
+		00DA442C24FCC180009658CB /* notificationsContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA442824FCC180009658CB /* notificationsContract.swift */; };
+		00DA442D24FCC180009658CB /* notificationsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA442924FCC180009658CB /* notificationsPresenter.swift */; };
+		00DA442E24FCC180009658CB /* notificationsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA442A24FCC180009658CB /* notificationsRouter.swift */; };
+		00DA442F24FCC180009658CB /* notificationsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA442B24FCC180009658CB /* notificationsInteractor.swift */; };
+		00DA443424FCC19D009658CB /* settingContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA443024FCC19D009658CB /* settingContract.swift */; };
+		00DA443524FCC19D009658CB /* settingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA443124FCC19D009658CB /* settingPresenter.swift */; };
+		00DA443624FCC19D009658CB /* settingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA443224FCC19D009658CB /* settingRouter.swift */; };
+		00DA443724FCC19D009658CB /* settingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA443324FCC19D009658CB /* settingInteractor.swift */; };
+		00DA443C24FCC1B0009658CB /* homeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA443824FCC1B0009658CB /* homeContract.swift */; };
+		00DA443D24FCC1B0009658CB /* homePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA443924FCC1B0009658CB /* homePresenter.swift */; };
+		00DA443E24FCC1B0009658CB /* homeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA443A24FCC1B0009658CB /* homeRouter.swift */; };
+		00DA443F24FCC1B0009658CB /* homeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA443B24FCC1B0009658CB /* homeInteractor.swift */; };
+		00DA444424FCC2B6009658CB /* homeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA444124FCC2B6009658CB /* homeTabBar.swift */; };
+		00DA444524FCC2B6009658CB /* tabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA444224FCC2B6009658CB /* tabBarRouter.swift */; };
+		00DA444624FCC2B6009658CB /* tabBarBuider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA444324FCC2B6009658CB /* tabBarBuider.swift */; };
+		00DA444924FCC6BC009658CB /* Navigations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA444824FCC6BC009658CB /* Navigations.swift */; };
+		00DA444C24FCD3A7009658CB /* homeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA444B24FCD3A7009658CB /* homeTableViewCell.swift */; };
+		00DA444F24FCD61F009658CB /* newModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA444E24FCD61F009658CB /* newModel.swift */; };
+		00DA445224FCD650009658CB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA445024FCD64F009658CB /* Reachability.swift */; };
+		00DA445324FCD650009658CB /* shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA445124FCD650009658CB /* shared.swift */; };
+		00DA445724FCD6B3009658CB /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA445524FCD6B3009658CB /* Urls.swift */; };
+		00DA445824FCD6B3009658CB /* server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA445624FCD6B3009658CB /* server.swift */; };
+		2AF8875E7E91AC49979464A0 /* Pods_smartAngel_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9162B93EAF27E67E862D1276 /* Pods_smartAngel_TestTests.framework */; };
+		5363B45FA52C6DECB2937C5B /* Pods_smartAngel_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03252ABEF86CB1201831191 /* Pods_smartAngel_Test.framework */; };
+		BB9EB81C06706E5FADF5FD35 /* Pods_smartAngel_Test_smartAngel_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214304F5F5B3791C2F4827D8 /* Pods_smartAngel_Test_smartAngel_TestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +71,6 @@
 		00DA43D924FCBF7F009658CB /* smartAngel_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartAngel_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DA43DC24FCBF7F009658CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00DA43DE24FCBF7F009658CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00DA43E024FCBF7F009658CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00DA43E324FCBF7F009658CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00DA43E624FCBF7F009658CB /* smartAngel_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = smartAngel_Test.xcdatamodel; sourceTree = "<group>"; };
 		00DA43E824FCBF81009658CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +82,45 @@
 		00DA43FD24FCBF81009658CB /* smartAngel_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartAngel_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00DA440124FCBF82009658CB /* smartAngel_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartAngel_TestUITests.swift; sourceTree = "<group>"; };
 		00DA440324FCBF82009658CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DA441824FCC126009658CB /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		00DA441A24FCC13E009658CB /* settingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
+		00DA441C24FCC146009658CB /* notificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationsViewController.swift; sourceTree = "<group>"; };
+		00DA441E24FCC152009658CB /* notesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesViewController.swift; sourceTree = "<group>"; };
+		00DA442024FCC160009658CB /* notesContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesContract.swift; sourceTree = "<group>"; };
+		00DA442124FCC160009658CB /* notesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesPresenter.swift; sourceTree = "<group>"; };
+		00DA442224FCC160009658CB /* notesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesRouter.swift; sourceTree = "<group>"; };
+		00DA442324FCC160009658CB /* notesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesInteractor.swift; sourceTree = "<group>"; };
+		00DA442824FCC180009658CB /* notificationsContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationsContract.swift; sourceTree = "<group>"; };
+		00DA442924FCC180009658CB /* notificationsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationsPresenter.swift; sourceTree = "<group>"; };
+		00DA442A24FCC180009658CB /* notificationsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationsRouter.swift; sourceTree = "<group>"; };
+		00DA442B24FCC180009658CB /* notificationsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationsInteractor.swift; sourceTree = "<group>"; };
+		00DA443024FCC19D009658CB /* settingContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingContract.swift; sourceTree = "<group>"; };
+		00DA443124FCC19D009658CB /* settingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingPresenter.swift; sourceTree = "<group>"; };
+		00DA443224FCC19D009658CB /* settingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingRouter.swift; sourceTree = "<group>"; };
+		00DA443324FCC19D009658CB /* settingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingInteractor.swift; sourceTree = "<group>"; };
+		00DA443824FCC1B0009658CB /* homeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeContract.swift; sourceTree = "<group>"; };
+		00DA443924FCC1B0009658CB /* homePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePresenter.swift; sourceTree = "<group>"; };
+		00DA443A24FCC1B0009658CB /* homeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeRouter.swift; sourceTree = "<group>"; };
+		00DA443B24FCC1B0009658CB /* homeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeInteractor.swift; sourceTree = "<group>"; };
+		00DA444124FCC2B6009658CB /* homeTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeTabBar.swift; sourceTree = "<group>"; };
+		00DA444224FCC2B6009658CB /* tabBarRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabBarRouter.swift; sourceTree = "<group>"; };
+		00DA444324FCC2B6009658CB /* tabBarBuider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabBarBuider.swift; sourceTree = "<group>"; };
+		00DA444824FCC6BC009658CB /* Navigations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigations.swift; sourceTree = "<group>"; };
+		00DA444B24FCD3A7009658CB /* homeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeTableViewCell.swift; sourceTree = "<group>"; };
+		00DA444E24FCD61F009658CB /* newModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newModel.swift; sourceTree = "<group>"; };
+		00DA445024FCD64F009658CB /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		00DA445124FCD650009658CB /* shared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shared.swift; sourceTree = "<group>"; };
+		00DA445524FCD6B3009658CB /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		00DA445624FCD6B3009658CB /* server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = server.swift; sourceTree = "<group>"; };
+		1B98E7D3D46EA573951B0B5A /* Pods-smartAngel_Test-smartAngel_TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartAngel_Test-smartAngel_TestUITests.release.xcconfig"; path = "Target Support Files/Pods-smartAngel_Test-smartAngel_TestUITests/Pods-smartAngel_Test-smartAngel_TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		214304F5F5B3791C2F4827D8 /* Pods_smartAngel_Test_smartAngel_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartAngel_Test_smartAngel_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2607CC9C242B8D006FB3CF6C /* Pods-smartAngel_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartAngel_Test.debug.xcconfig"; path = "Target Support Files/Pods-smartAngel_Test/Pods-smartAngel_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		67D70CC6FE8638CD7691A71E /* Pods-smartAngel_TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartAngel_TestTests.debug.xcconfig"; path = "Target Support Files/Pods-smartAngel_TestTests/Pods-smartAngel_TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D319024C51BDB971AE7D639 /* Pods-smartAngel_Test-smartAngel_TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartAngel_Test-smartAngel_TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-smartAngel_Test-smartAngel_TestUITests/Pods-smartAngel_Test-smartAngel_TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C48B95D22FF9C23D38A6A50 /* Pods-smartAngel_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartAngel_Test.release.xcconfig"; path = "Target Support Files/Pods-smartAngel_Test/Pods-smartAngel_Test.release.xcconfig"; sourceTree = "<group>"; };
+		9162B93EAF27E67E862D1276 /* Pods_smartAngel_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartAngel_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A399BA74C0BB4B4BD71A2C6C /* Pods-smartAngel_TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smartAngel_TestTests.release.xcconfig"; path = "Target Support Files/Pods-smartAngel_TestTests/Pods-smartAngel_TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D03252ABEF86CB1201831191 /* Pods_smartAngel_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smartAngel_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5363B45FA52C6DECB2937C5B /* Pods_smartAngel_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF8875E7E91AC49979464A0 /* Pods_smartAngel_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9EB81C06706E5FADF5FD35 /* Pods_smartAngel_Test_smartAngel_TestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +158,8 @@
 				00DA43F524FCBF81009658CB /* smartAngel_TestTests */,
 				00DA440024FCBF82009658CB /* smartAngel_TestUITests */,
 				00DA43DA24FCBF7F009658CB /* Products */,
+				1403B44EF5B5167A63757211 /* Pods */,
+				3BB095CBFF00CFD7728E9B51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +176,14 @@
 		00DA43DB24FCBF7F009658CB /* smartAngel_Test */ = {
 			isa = PBXGroup;
 			children = (
-				00DA43DC24FCBF7F009658CB /* AppDelegate.swift */,
-				00DA43DE24FCBF7F009658CB /* SceneDelegate.swift */,
-				00DA43E024FCBF7F009658CB /* ViewController.swift */,
-				00DA43E224FCBF7F009658CB /* Main.storyboard */,
-				00DA43E824FCBF81009658CB /* Assets.xcassets */,
-				00DA43EA24FCBF81009658CB /* LaunchScreen.storyboard */,
+				00DA441224FCC088009658CB /* Design */,
+				00DA441324FCC0A5009658CB /* View controllers */,
+				00DA441124FCC080009658CB /* Deleagations */,
+				00DA445424FCD690009658CB /* networking */,
+				00DA444724FCC6A2009658CB /* shared */,
+				00DA444D24FCD60E009658CB /* Models */,
+				00DA441024FCC077009658CB /* Resources */,
 				00DA43ED24FCBF81009658CB /* Info.plist */,
-				00DA43E524FCBF7F009658CB /* smartAngel_Test.xcdatamodeld */,
 			);
 			path = smartAngel_Test;
 			sourceTree = "<group>";
@@ -131,6 +206,162 @@
 			path = smartAngel_TestUITests;
 			sourceTree = "<group>";
 		};
+		00DA441024FCC077009658CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00DA43E824FCBF81009658CB /* Assets.xcassets */,
+				00DA43E524FCBF7F009658CB /* smartAngel_Test.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00DA441124FCC080009658CB /* Deleagations */ = {
+			isa = PBXGroup;
+			children = (
+				00DA43DC24FCBF7F009658CB /* AppDelegate.swift */,
+				00DA43DE24FCBF7F009658CB /* SceneDelegate.swift */,
+			);
+			path = Deleagations;
+			sourceTree = "<group>";
+		};
+		00DA441224FCC088009658CB /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				00DA43E224FCBF7F009658CB /* Main.storyboard */,
+				00DA43EA24FCBF81009658CB /* LaunchScreen.storyboard */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		00DA441324FCC0A5009658CB /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				00DA444024FCC2B6009658CB /* Tab Bar */,
+				00DA441724FCC0F5009658CB /* Notes */,
+				00DA441624FCC0ED009658CB /* notifications */,
+				00DA441524FCC0E8009658CB /* setting */,
+				00DA441424FCC0C6009658CB /* home */,
+			);
+			path = "View controllers";
+			sourceTree = "<group>";
+		};
+		00DA441424FCC0C6009658CB /* home */ = {
+			isa = PBXGroup;
+			children = (
+				00DA444A24FCD38A009658CB /* home cells */,
+				00DA441824FCC126009658CB /* homeViewController.swift */,
+				00DA443824FCC1B0009658CB /* homeContract.swift */,
+				00DA443924FCC1B0009658CB /* homePresenter.swift */,
+				00DA443A24FCC1B0009658CB /* homeRouter.swift */,
+				00DA443B24FCC1B0009658CB /* homeInteractor.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		00DA441524FCC0E8009658CB /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				00DA441A24FCC13E009658CB /* settingViewController.swift */,
+				00DA443024FCC19D009658CB /* settingContract.swift */,
+				00DA443124FCC19D009658CB /* settingPresenter.swift */,
+				00DA443224FCC19D009658CB /* settingRouter.swift */,
+				00DA443324FCC19D009658CB /* settingInteractor.swift */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		00DA441624FCC0ED009658CB /* notifications */ = {
+			isa = PBXGroup;
+			children = (
+				00DA441C24FCC146009658CB /* notificationsViewController.swift */,
+				00DA442824FCC180009658CB /* notificationsContract.swift */,
+				00DA442924FCC180009658CB /* notificationsPresenter.swift */,
+				00DA442A24FCC180009658CB /* notificationsRouter.swift */,
+				00DA442B24FCC180009658CB /* notificationsInteractor.swift */,
+			);
+			path = notifications;
+			sourceTree = "<group>";
+		};
+		00DA441724FCC0F5009658CB /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				00DA441E24FCC152009658CB /* notesViewController.swift */,
+				00DA442024FCC160009658CB /* notesContract.swift */,
+				00DA442124FCC160009658CB /* notesPresenter.swift */,
+				00DA442224FCC160009658CB /* notesRouter.swift */,
+				00DA442324FCC160009658CB /* notesInteractor.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		00DA444024FCC2B6009658CB /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				00DA444124FCC2B6009658CB /* homeTabBar.swift */,
+				00DA444224FCC2B6009658CB /* tabBarRouter.swift */,
+				00DA444324FCC2B6009658CB /* tabBarBuider.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		00DA444724FCC6A2009658CB /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				00DA445024FCD64F009658CB /* Reachability.swift */,
+				00DA445124FCD650009658CB /* shared.swift */,
+				00DA444824FCC6BC009658CB /* Navigations.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		00DA444A24FCD38A009658CB /* home cells */ = {
+			isa = PBXGroup;
+			children = (
+				00DA444B24FCD3A7009658CB /* homeTableViewCell.swift */,
+			);
+			path = "home cells";
+			sourceTree = "<group>";
+		};
+		00DA444D24FCD60E009658CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00DA444E24FCD61F009658CB /* newModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00DA445424FCD690009658CB /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				00DA445624FCD6B3009658CB /* server.swift */,
+				00DA445524FCD6B3009658CB /* Urls.swift */,
+			);
+			path = networking;
+			sourceTree = "<group>";
+		};
+		1403B44EF5B5167A63757211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2607CC9C242B8D006FB3CF6C /* Pods-smartAngel_Test.debug.xcconfig */,
+				7C48B95D22FF9C23D38A6A50 /* Pods-smartAngel_Test.release.xcconfig */,
+				6D319024C51BDB971AE7D639 /* Pods-smartAngel_Test-smartAngel_TestUITests.debug.xcconfig */,
+				1B98E7D3D46EA573951B0B5A /* Pods-smartAngel_Test-smartAngel_TestUITests.release.xcconfig */,
+				67D70CC6FE8638CD7691A71E /* Pods-smartAngel_TestTests.debug.xcconfig */,
+				A399BA74C0BB4B4BD71A2C6C /* Pods-smartAngel_TestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3BB095CBFF00CFD7728E9B51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03252ABEF86CB1201831191 /* Pods_smartAngel_Test.framework */,
+				214304F5F5B3791C2F4827D8 /* Pods_smartAngel_Test_smartAngel_TestUITests.framework */,
+				9162B93EAF27E67E862D1276 /* Pods_smartAngel_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +369,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00DA440624FCBF82009658CB /* Build configuration list for PBXNativeTarget "smartAngel_Test" */;
 			buildPhases = (
+				3E16E123B07F6B4F40DB802E /* [CP] Check Pods Manifest.lock */,
 				00DA43D524FCBF7F009658CB /* Sources */,
 				00DA43D624FCBF7F009658CB /* Frameworks */,
 				00DA43D724FCBF7F009658CB /* Resources */,
+				AD1AA89B5D342E016A1E472E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +388,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00DA440924FCBF82009658CB /* Build configuration list for PBXNativeTarget "smartAngel_TestTests" */;
 			buildPhases = (
+				9B3BD4A6332F59D44786797B /* [CP] Check Pods Manifest.lock */,
 				00DA43EE24FCBF81009658CB /* Sources */,
 				00DA43EF24FCBF81009658CB /* Frameworks */,
 				00DA43F024FCBF81009658CB /* Resources */,
@@ -173,9 +407,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00DA440C24FCBF82009658CB /* Build configuration list for PBXNativeTarget "smartAngel_TestUITests" */;
 			buildPhases = (
+				EDD97916EF67EB5A96F63F73 /* [CP] Check Pods Manifest.lock */,
 				00DA43F924FCBF81009658CB /* Sources */,
 				00DA43FA24FCBF81009658CB /* Frameworks */,
 				00DA43FB24FCBF81009658CB /* Resources */,
+				5CECC105D68ECF0094FF7ACB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,15 +493,147 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E16E123B07F6B4F40DB802E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartAngel_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CECC105D68ECF0094FF7ACB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartAngel_Test-smartAngel_TestUITests/Pods-smartAngel_Test-smartAngel_TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartAngel_Test-smartAngel_TestUITests/Pods-smartAngel_Test-smartAngel_TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smartAngel_Test-smartAngel_TestUITests/Pods-smartAngel_Test-smartAngel_TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B3BD4A6332F59D44786797B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartAngel_TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1AA89B5D342E016A1E472E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartAngel_Test/Pods-smartAngel_Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smartAngel_Test/Pods-smartAngel_Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smartAngel_Test/Pods-smartAngel_Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD97916EF67EB5A96F63F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smartAngel_Test-smartAngel_TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00DA43D524FCBF7F009658CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00DA43E124FCBF7F009658CB /* ViewController.swift in Sources */,
+				00DA444424FCC2B6009658CB /* homeTabBar.swift in Sources */,
+				00DA442624FCC160009658CB /* notesRouter.swift in Sources */,
+				00DA444F24FCD61F009658CB /* newModel.swift in Sources */,
+				00DA442E24FCC180009658CB /* notificationsRouter.swift in Sources */,
+				00DA442524FCC160009658CB /* notesPresenter.swift in Sources */,
+				00DA445824FCD6B3009658CB /* server.swift in Sources */,
+				00DA444924FCC6BC009658CB /* Navigations.swift in Sources */,
+				00DA443F24FCC1B0009658CB /* homeInteractor.swift in Sources */,
+				00DA442C24FCC180009658CB /* notificationsContract.swift in Sources */,
+				00DA445224FCD650009658CB /* Reachability.swift in Sources */,
+				00DA442F24FCC180009658CB /* notificationsInteractor.swift in Sources */,
 				00DA43E724FCBF7F009658CB /* smartAngel_Test.xcdatamodeld in Sources */,
+				00DA445724FCD6B3009658CB /* Urls.swift in Sources */,
 				00DA43DD24FCBF7F009658CB /* AppDelegate.swift in Sources */,
+				00DA443724FCC19D009658CB /* settingInteractor.swift in Sources */,
+				00DA443624FCC19D009658CB /* settingRouter.swift in Sources */,
+				00DA445324FCD650009658CB /* shared.swift in Sources */,
+				00DA442724FCC160009658CB /* notesInteractor.swift in Sources */,
+				00DA442D24FCC180009658CB /* notificationsPresenter.swift in Sources */,
+				00DA441B24FCC13E009658CB /* settingViewController.swift in Sources */,
+				00DA443C24FCC1B0009658CB /* homeContract.swift in Sources */,
+				00DA441F24FCC152009658CB /* notesViewController.swift in Sources */,
+				00DA441D24FCC146009658CB /* notificationsViewController.swift in Sources */,
+				00DA443E24FCC1B0009658CB /* homeRouter.swift in Sources */,
+				00DA443424FCC19D009658CB /* settingContract.swift in Sources */,
+				00DA442424FCC160009658CB /* notesContract.swift in Sources */,
+				00DA444524FCC2B6009658CB /* tabBarRouter.swift in Sources */,
 				00DA43DF24FCBF7F009658CB /* SceneDelegate.swift in Sources */,
+				00DA444624FCC2B6009658CB /* tabBarBuider.swift in Sources */,
+				00DA443524FCC19D009658CB /* settingPresenter.swift in Sources */,
+				00DA443D24FCC1B0009658CB /* homePresenter.swift in Sources */,
+				00DA444C24FCD3A7009658CB /* homeTableViewCell.swift in Sources */,
+				00DA441924FCC126009658CB /* homeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +804,7 @@
 		};
 		00DA440724FCBF82009658CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2607CC9C242B8D006FB3CF6C /* Pods-smartAngel_Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +823,7 @@
 		};
 		00DA440824FCBF82009658CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C48B95D22FF9C23D38A6A50 /* Pods-smartAngel_Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +842,7 @@
 		};
 		00DA440A24FCBF82009658CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D70CC6FE8638CD7691A71E /* Pods-smartAngel_TestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +865,7 @@
 		};
 		00DA440B24FCBF82009658CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A399BA74C0BB4B4BD71A2C6C /* Pods-smartAngel_TestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +888,7 @@
 		};
 		00DA440D24FCBF82009658CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D319024C51BDB971AE7D639 /* Pods-smartAngel_Test-smartAngel_TestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +909,7 @@
 		};
 		00DA440E24FCBF82009658CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B98E7D3D46EA573951B0B5A /* Pods-smartAngel_Test-smartAngel_TestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
